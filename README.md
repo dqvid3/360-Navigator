@@ -1,5 +1,5 @@
 # 360° Image and Video Navigator
-This repository contains a simple pedestrian tracker implemented as an assignment for the Computer Vision course attended at [UniPa](https://www.unipa.it/dipartimenti/ingegneria/cds/ingegneriainformatica2035/?template=responsive&pagina=insegnamento&idInsegnamento=171775&idDocente=155776&idCattedra=167762).
+This repository contains a 360° image/video navigator developed as an assignment for the [Computer Vision](https://www.unipa.it/dipartimenti/ingegneria/cds/ingegneriainformatica2035/?template=responsive&pagina=insegnamento&idInsegnamento=171775&idDocente=155776&idCattedra=167762) course for master's degree in Artificial Intelligence at [University of Palermo](https://www.unipa.it/).
 
 ## Overview
 
@@ -22,23 +22,17 @@ This project is a tool designed to navigate images captured by 360° cameras (eq
 This example demonstrates how the navigator allows you to focus on specific areas within a 360° image.
 
 ### Original 360° Image
+![](imgs/esplodi_pc.jpg)
 
 ### Navigated View
-
-This view is achieved using the following settings:
-
-- FOV: 90°
-- Latitude: 90°
-- Longitude: 65°
-- Zoom: 1x
-
+![](screenshots/screenshot-2024-06-19-13-25-02.png)
 
 ## Usage
 
 1. Clone the repository:
    ```sh
    git clone https://github.com/dqvid3/360-navigator.git
-   cd 360-navigator```
+   cd 360-navigator
 2. Load an Image or Video:
   - Run the application using python main.py.
   - Use the GUI to select an image or video file either by entering the path or using the file dialog.
@@ -53,5 +47,4 @@ This view is achieved using the following settings:
 - `elaborazioni.py`: Contains the core functions for processing frames, reading images and videos, adding text to frames, taking screenshots, and handling navigation.
 - `interfaccia.py`: Implements the Tkinter-based GUI for selecting files and input parameters.
 - `main.py`: The entry point of the application that launches the GUI.
-- `trasformazioni.py`: Provides utility functions for coordinate
-transformations and image projections.
+- `trasformazioni.py`: Provides utility functions for coordinate transformations and image projections.
