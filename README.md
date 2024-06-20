@@ -34,7 +34,7 @@ This example demonstrates how the navigator allows you to focus on specific area
    git clone https://github.com/dqvid3/360-navigator.git
    cd 360-navigator
 2. Load an Image or Video:
-  - Run the application using python main.py.
+  - Run the application using `python main.py`.
   - Use the GUI to select an image or video file either by entering the path or using the file dialog.
   - Set the initial FOV, latitude, and longitude.
 3. Navigate the Image or Video:
